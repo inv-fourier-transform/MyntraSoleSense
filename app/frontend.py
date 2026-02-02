@@ -100,7 +100,7 @@ def ask(query):
         return f"Route {route} not implemented yet"
 
 
-st.set_page_config(page_title="Myntra Shoe Assistant", page_icon="👟", layout="wide")
+st.set_page_config(page_title="Myntra SoleSense Shoe Assistant", page_icon="👟", layout="wide")
 
 st.markdown("""
     <style>
@@ -176,7 +176,7 @@ st.markdown("""
 
 st.markdown("""
     <div class="title-container">
-        <h1 class="title-text">👟 Myntra Shoe Assistant Chatbot</h1>
+        <h1 class="title-text">👟 Myntra SoleSense Shoe Assistant Chatbot</h1>
     </div>
 """, unsafe_allow_html=True)
 
