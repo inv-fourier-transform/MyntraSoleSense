@@ -1,4 +1,64 @@
-# 👟 Myntra Shoe Assistant
+
+<p align="center">
+  <!-- Replace the src with your own logo later if you want -->
+  <img
+    src="https://img.icons8.com/ios-filled/200/004D40/sneakers.png"
+    width="120"
+    alt="MyntraSoleSense"
+  />
+</p>
+
+<h2 align="center">MyntraSoleSense</h2>
+<p align="center"><b>AI-powered sneaker discovery & recommendations using semantic search + LLM routing.</b></p>
+
+<p align="center">
+  <a href="https://streamlit.io/">
+    <img alt="Streamlit" src="https://img.shields.io/badge/streamlit-1.50.0-ff4b4b?logo=streamlit&logoColor=white">
+  </a>
+  <a href="https://www.selenium.dev/">
+    <img alt="Selenium" src="https://img.shields.io/badge/selenium-4.15.0-43B02A?logo=selenium&logoColor=white">
+  </a>
+  <a href="https://www.crummy.com/software/BeautifulSoup/">
+    <img alt="BeautifulSoup" src="https://img.shields.io/badge/beautifulsoup4-4.12.2-3c873a?logo=python&logoColor=white">
+  </a>
+  <a href="https://lxml.de/">
+    <img alt="lxml" src="https://img.shields.io/badge/lxml-4.9.3-0b1f3b?logo=python&logoColor=white">
+  </a>
+  <a href="https://pandas.pydata.org/">
+    <img alt="Pandas" src="https://img.shields.io/badge/pandas-latest-150458?logo=pandas&logoColor=white">
+  </a>
+  <a href="https://www.trychroma.com/">
+    <img alt="ChromaDB" src="https://img.shields.io/badge/chromadb-0.5.3-0b1f3b?logo=databricks&logoColor=white">
+  </a>
+  <a href="https://www.sbert.net/">
+    <img alt="Sentence Transformers" src="https://img.shields.io/badge/sentence--transformers-2.2.2-0b1f3b?logo=huggingface&logoColor=white">
+  </a>
+  <a href="https://pytorch.org/">
+    <img alt="PyTorch" src="https://img.shields.io/badge/torch-latest-ee4c2c?logo=pytorch&logoColor=white">
+  </a>
+  <a href="https://onnxruntime.ai/">
+    <img alt="ONNX Runtime" src="https://img.shields.io/badge/onnxruntime--gpu-latest-0b1f3b?logo=nvidia&logoColor=white">
+  </a>
+  <a href="https://huggingface.co/docs/huggingface_hub">
+    <img alt="huggingface_hub" src="https://img.shields.io/badge/huggingface__hub-0.13.4-ffd21e?logo=huggingface&logoColor=000">
+  </a>
+  <a href="https://groq.com/">
+    <img alt="Groq" src="https://img.shields.io/badge/groq-latest-0b1f3b?logo=lightning&logoColor=white">
+  </a>
+  <a href="https://github.com/semantic-router/semantic-router">
+    <img alt="semantic-router" src="https://img.shields.io/badge/semantic--router-0.1.11-0b1f3b?logo=github&logoColor=white">
+  </a>
+</p>
+
+<p align="center">
+  <b>Scraping:</b> Selenium + BeautifulSoup &nbsp; | &nbsp; <b>Vector DB:</b> ChromaDB &nbsp; | &nbsp; <b>NLP:</b> Sentence-Transformers + Torch &nbsp; | &nbsp; <b>UI:</b> Streamlit
+</p>
+
+<p align="center">
+  MyntraSoleSense collects product pages, embeds product text, and retrieves the most relevant shoes via semantic search—then uses LLM routing to answer queries fast.
+</p>
+
+---
 
 An intelligent chatbot assistant for Myntra's e-commerce platform that helps users find and explore shoes across various brands. The assistant combines natural language understanding with semantic search and database querying to provide accurate product information and support.
 
@@ -18,6 +78,26 @@ An intelligent chatbot assistant for Myntra's e-commerce platform that helps use
 - **Structured Data**: SQLite3 for product catalog
 - **Web Framework**: Streamlit for the frontend interface
 - **Natural Language Processing**: Semantic Router for intent classification
+
+---
+
+## 📸 Screenshots
+
+
+### 🖥️ Streamlit Application Interface
+![Home Screen](app/artifacts_folder/screenshots/landing_page.png)
+
+### ✅ Sample Results
+#### Product Search
+![Result Screen](app/artifacts_folder/screenshots/query1_result.png)
+![Result Screen](app/artifacts_folder/screenshots/query3_result.png)
+#### FAQ Related Queries
+![Result Screen](app/artifacts_folder/screenshots/query2_result.png)
+#### Small Talk
+![Result Screen](app/artifacts_folder/screenshots/query4_result.png)
+
+---
+
 
 ## 📦 Project Structure
 
@@ -138,6 +218,10 @@ The current implementation focuses on shoes but can be extended to:
 - More brands and products
 - Enhanced filtering options
 
+## 🚀 Version 2.0
+
+Once launched, it will be able to handle more complex SQL queries, including sub-queries, CTEs, and other advanced query structures to make data retrieval even more powerful.
+
 ## 💻 Local Development with Ollama
 
 For local development without Groq Cloud:
@@ -159,3 +243,7 @@ For local development without Groq Cloud:
 ## 📄 License
 
 MIT License - See LICENSE for details.
+
+---
+
+*If your shoe hunt still takes longer than your checkout, you’re doing it wrong.*
